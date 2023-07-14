@@ -1,6 +1,8 @@
 # Not-LinkTree
 This is a simple HTML code for creating a clone of LinkTree, a platform that allows users to create a personalized webpage with links to their various social media profiles or websites. The code provides a template for displaying a profile picture, user name, and a list of links to different social media platforms.
 
+# Demo 
+![Alt Text](Demo.png)
 # Usage
 To use this code, follow the steps below:
 
