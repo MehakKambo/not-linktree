@@ -4,20 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <title>Not-LinkTree</title>
 </head>
 <body>
-    <div class="animated-background">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
-        <div class="stars"></div>
-        <div class="twinkling"></div>
-        <div class="clouds"></div>
-    </div>
-    <div class="profile pic">
+    <!-- Add bg -->
+    <div class="wrapper">
 
     </div>
-    <div class="links">
 
-    </div>
+    <!-- Display a profile pic -->
+    <a id="profilePicture" href="#popup">
+        <img src="profile.png" alt="Profile Picture">
+      </a>
+  
+      <div class="overlay" id="popup">
+        <div class="popup">
+          <div class="popup-photo">
+            <a href="profile.png" target="_blank">
+              <img src="profile.png" alt="Profile Picture">
+            </a>
+          </div>
+          <div class="popup-quote">
+            But... the sensation that I've lost something lingers for a longtime after I wake up.
+          </div>
+          <a class="popup-close" onclick="history.back()">&times;</a>
+        </div>
+      </div>
+  
+      <div id="userName">
+        @mehakkambo
+      </div>
+  
+      <div id="links">
+        <a class="link" href="https://github.com/mehakkambo" target="_blank">
+          <i class="fab fa-github">&nbsp;</i>Github
+        </a>
+        <a class="link" href="https://www.linkedin.com/in/mehakkambo" target="_blank">
+          <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+        </a>
+        <a class="link" href="https://www.facebook.com" target="_blank">
+          <i class="fab fa-facebook">&nbsp;</i>Facebook
+        </a>
+        <a class="link" href="https://www.instagram.com" target="_blank">
+          <i class="fab fa-instagram">&nbsp;</i>Instagram
+        </a>
+        <a class="link" href="https://twitter.com" target="_blank">
+          <i class="fab fa-twitter">&nbsp;</i>Twitter
+        </a>
+        <a class="link" href="https://spotify.com" target="_blank">
+          <i class="fa fa-play-circle">&nbsp;</i>My Spotify Playlists
+        </a>
+      </div>
+  
+      <div id="hashtag">
+        #Happy Coding❤
+      </div>
 </body>
 </html>
